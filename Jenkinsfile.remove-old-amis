@@ -3,6 +3,8 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-1' 
+        GITHUB_CREDENTIALS = 'isi-github-pat'
+        AWS_CREDENTIALS = 'aws-accessKey-secretKey'
     }
 
     triggers {
