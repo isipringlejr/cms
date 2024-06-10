@@ -11,7 +11,7 @@ pipeline {
         // Schedule to run at midnight on the 1st of every month
         cron('0 0 1 * *')
     }
-    }
+
 
     stages {
         stage('Setup') {
@@ -129,6 +129,6 @@ main "$@"
             }
         }
     }
-
+}
     
 
